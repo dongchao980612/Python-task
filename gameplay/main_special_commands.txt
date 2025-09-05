@@ -1,0 +1,76 @@
+Welcome to Teeko!
+
+  1  2  3  4  5
+1 ○  ○  ○  ○  ○
+
+2 ○  ○  ○  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1's pieces to place: 4
+Please enter your command (h to see valid command): h
+Valid Commands: 
+    pXY   - Place a piece at row X, column Y (e.g., p34 places a piece at row 3, column 4)
+    mXYUV - Move a piece from position (X,Y) to (U,V) (e.g., m3425 moves from 3,4 to 2,5)
+    h     - Show this help message
+    q     - Quit the game
+
+Player 1's pieces to place: 4
+Please enter your command (h to see valid command): H
+Valid Commands: 
+    pXY   - Place a piece at row X, column Y (e.g., p34 places a piece at row 3, column 4)
+    mXYUV - Move a piece from position (X,Y) to (U,V) (e.g., m3425 moves from 3,4 to 2,5)
+    h     - Show this help message
+    q     - Quit the game
+
+Player 1's pieces to place: 4
+Please enter your command (h to see valid command): Q
+Would you like to play again? (y/n): y
+Welcome to Teeko!
+
+  1  2  3  4  5
+1 ○  ○  ○  ○  ○
+
+2 ○  ○  ○  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1's pieces to place: 4
+Please enter your command (h to see valid command): p11
+
+  1  2  3  4  5
+1 ◍  ○  ○  ○  ○
+
+2 ○  ○  ○  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 2's pieces to place: 4
+Please enter your command (h to see valid command): p12
+
+  1  2  3  4  5
+1 ◍  ●  ○  ○  ○
+
+2 ○  ○  ○  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1's pieces to place: 3
+Please enter your command (h to see valid command): q
+Would you like to play again? (y/n): n

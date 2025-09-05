@@ -1,0 +1,220 @@
+Welcome to Teeko!
+
+  1  2  3  4  5
+1 ○  ○  ○  ○  ○
+
+2 ○  ○  ○  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1's pieces to place: 4
+Please enter your command (h to see valid command): Place11
+Invalid command. Enter 'h' for valid command format or 'q' to quit
+Please enter your command (h to see valid command): p11
+
+  1  2  3  4  5
+1 ◍  ○  ○  ○  ○
+
+2 ○  ○  ○  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 2's pieces to place: 4
+Please enter your command (h to see valid command): p11
+That position is not valid!
+
+Player 2's pieces to place: 4
+Please enter your command (h to see valid command): p12
+
+  1  2  3  4  5
+1 ◍  ●  ○  ○  ○
+
+2 ○  ○  ○  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1's pieces to place: 3
+Please enter your command (h to see valid command): P
+Invalid command. Enter 'h' for valid command format or 'q' to quit
+Please enter your command (h to see valid command): P2
+Invalid command. Enter 'h' for valid command format or 'q' to quit
+Please enter your command (h to see valid command): P22
+
+  1  2  3  4  5
+1 ◍  ●  ○  ○  ○
+
+2 ○  ◍  ○  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 2's pieces to place: 3
+Please enter your command (h to see valid command): m2221
+First, you have to place all your pieces on the board!
+
+Player 2's pieces to place: 3
+Please enter your command (h to see valid command): m1213
+First, you have to place all your pieces on the board!
+
+Player 2's pieces to place: 3
+Please enter your command (h to see valid command): m1155
+First, you have to place all your pieces on the board!
+
+Player 2's pieces to place: 3
+Please enter your command (h to see valid command): p12
+That position is not valid!
+
+Player 2's pieces to place: 3
+Please enter your command (h to see valid command): p21
+
+  1  2  3  4  5
+1 ◍  ●  ○  ○  ○
+
+2 ●  ◍  ○  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1's pieces to place: 2
+Please enter your command (h to see valid command): p33
+
+  1  2  3  4  5
+1 ◍  ●  ○  ○  ○
+
+2 ●  ◍  ○  ○  ○
+
+3 ○  ○  ◍  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 2's pieces to place: 2
+Please enter your command (h to see valid command): p44
+
+  1  2  3  4  5
+1 ◍  ●  ○  ○  ○
+
+2 ●  ◍  ○  ○  ○
+
+3 ○  ○  ◍  ○  ○
+
+4 ○  ○  ○  ●  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1's pieces to place: 1
+Please enter your command (h to see valid command): p55
+
+  1  2  3  4  5
+1 ◍  ●  ○  ○  ○
+
+2 ●  ◍  ○  ○  ○
+
+3 ○  ○  ◍  ○  ○
+
+4 ○  ○  ○  ●  ○
+
+5 ○  ○  ○  ○  ◍
+
+Player 2's pieces to place: 1
+Please enter your command (h to see valid command): p13
+
+  1  2  3  4  5
+1 ◍  ●  ●  ○  ○
+
+2 ●  ◍  ○  ○  ○
+
+3 ○  ○  ◍  ○  ○
+
+4 ○  ○  ○  ●  ○
+
+5 ○  ○  ○  ○  ◍
+
+Player 1's turn to move
+Please enter your command (h to see valid command): p23
+You have already placed all your pieces on the board!
+
+Player 1's turn to move
+Please enter your command (h to see valid command): M1112
+That movement is not valid!
+
+Player 1's turn to move
+Please enter your command (h to see valid command): m1123
+That movement is not valid!
+
+Player 1's turn to move
+Please enter your command (h to see valid command): m2131
+That movement is not valid!
+
+Player 1's turn to move
+Please enter your command (h to see valid command): m2223
+
+  1  2  3  4  5
+1 ◍  ●  ●  ○  ○
+
+2 ●  ○  ◍  ○  ○
+
+3 ○  ○  ◍  ○  ○
+
+4 ○  ○  ○  ●  ○
+
+5 ○  ○  ○  ○  ◍
+
+Player 2's turn to move
+Please enter your command (h to see valid command): m2232
+That movement is not valid!
+
+Player 2's turn to move
+Please enter your command (h to see valid command): m21
+Invalid command. Enter 'h' for valid command format or 'q' to quit
+Please enter your command (h to see valid command): m211
+Invalid command. Enter 'h' for valid command format or 'q' to quit
+Please enter your command (h to see valid command): m2111
+That movement is not valid!
+
+Player 2's turn to move
+Please enter your command (h to see valid command): m21111
+Invalid command. Enter 'h' for valid command format or 'q' to quit
+Please enter your command (h to see valid command): hekp
+Invalid command. Enter 'h' for valid command format or 'q' to quit
+Please enter your command (h to see valid command): help
+Invalid command. Enter 'h' for valid command format or 'q' to quit
+Please enter your command (h to see valid command): H
+Valid Commands: 
+    pXY   - Place a piece at row X, column Y (e.g., p34 places a piece at row 3, column 4)
+    mXYUV - Move a piece from position (X,Y) to (U,V) (e.g., m3425 moves from 3,4 to 2,5)
+    h     - Show this help message
+    q     - Quit the game
+
+Player 2's turn to move
+Please enter your command (h to see valid command): !uit
+Invalid command. Enter 'h' for valid command format or 'q' to quit
+Please enter your command (h to see valid command): Quit
+Invalid command. Enter 'h' for valid command format or 'q' to quit
+Please enter your command (h to see valid command):
+Invalid command. Enter 'h' for valid command format or 'q' to quit
+Please enter your command (h to see valid command):
+Invalid command. Enter 'h' for valid command format or 'q' to quit
+Please enter your command (h to see valid command):
+Invalid command. Enter 'h' for valid command format or 'q' to quit
+Please enter your command (h to see valid command): Q
+Would you like to play again? (y/n): Perhaps

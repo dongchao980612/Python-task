@@ -1,0 +1,362 @@
+Welcome to Teeko!
+
+  1  2  3  4  5
+1 ○  ○  ○  ○  ○
+
+2 ○  ○  ○  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1's pieces to place: 4
+Please enter your command (h to see valid command): p11
+
+  1  2  3  4  5
+1 ◍  ○  ○  ○  ○
+
+2 ○  ○  ○  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 2's pieces to place: 4
+Please enter your command (h to see valid command): p21
+
+  1  2  3  4  5
+1 ◍  ○  ○  ○  ○
+
+2 ●  ○  ○  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1's pieces to place: 3
+Please enter your command (h to see valid command): p12
+
+  1  2  3  4  5
+1 ◍  ◍  ○  ○  ○
+
+2 ●  ○  ○  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 2's pieces to place: 3
+Please enter your command (h to see valid command): p31
+
+  1  2  3  4  5
+1 ◍  ◍  ○  ○  ○
+
+2 ●  ○  ○  ○  ○
+
+3 ●  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1's pieces to place: 2
+Please enter your command (h to see valid command): p22
+
+  1  2  3  4  5
+1 ◍  ◍  ○  ○  ○
+
+2 ●  ◍  ○  ○  ○
+
+3 ●  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 2's pieces to place: 2
+Please enter your command (h to see valid command): p32
+
+  1  2  3  4  5
+1 ◍  ◍  ○  ○  ○
+
+2 ●  ◍  ○  ○  ○
+
+3 ●  ●  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1's pieces to place: 1
+Please enter your command (h to see valid command): p13
+
+  1  2  3  4  5
+1 ◍  ◍  ◍  ○  ○
+
+2 ●  ◍  ○  ○  ○
+
+3 ●  ●  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 2's pieces to place: 1
+Please enter your command (h to see valid command): p23
+
+  1  2  3  4  5
+1 ◍  ◍  ◍  ○  ○
+
+2 ●  ◍  ●  ○  ○
+
+3 ●  ●  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1's turn to move
+Please enter your command (h to see valid command): p2223
+Invalid command. Enter 'h' for valid command format or 'q' to quit
+Please enter your command (h to see valid command): m2223 
+That movement is not valid!
+
+Player 1's turn to move
+Please enter your command (h to see valid command): m2233
+
+  1  2  3  4  5
+1 ◍  ◍  ◍  ○  ○
+
+2 ●  ○  ●  ○  ○
+
+3 ●  ●  ◍  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 2's turn to move
+Please enter your command (h to see valid command): m2322
+
+  1  2  3  4  5
+1 ◍  ◍  ◍  ○  ○
+
+2 ●  ●  ○  ○  ○
+
+3 ●  ●  ◍  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 2 wins!
+Would you like to play again? (y/n): Y
+Welcome to Teeko!
+
+  1  2  3  4  5
+1 ○  ○  ○  ○  ○
+
+2 ○  ○  ○  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1's pieces to place: 4
+Please enter your command (h to see valid command): p11
+
+  1  2  3  4  5
+1 ◍  ○  ○  ○  ○
+
+2 ○  ○  ○  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 2's pieces to place: 4
+Please enter your command (h to see valid command): p22
+
+  1  2  3  4  5
+1 ◍  ○  ○  ○  ○
+
+2 ○  ●  ○  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1's pieces to place: 3
+Please enter your command (h to see valid command): p12
+
+  1  2  3  4  5
+1 ◍  ◍  ○  ○  ○
+
+2 ○  ●  ○  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 2's pieces to place: 3
+Please enter your command (h to see valid command): p13
+
+  1  2  3  4  5
+1 ◍  ◍  ●  ○  ○
+
+2 ○  ●  ○  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1's pieces to place: 2
+Please enter your command (h to see valid command): p23
+
+  1  2  3  4  5
+1 ◍  ◍  ●  ○  ○
+
+2 ○  ●  ◍  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 2's pieces to place: 2
+Please enter your command (h to see valid command): p15
+
+  1  2  3  4  5
+1 ◍  ◍  ●  ○  ●
+
+2 ○  ●  ◍  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1's pieces to place: 1
+Please enter your command (h to see valid command): p24
+
+  1  2  3  4  5
+1 ◍  ◍  ●  ○  ●
+
+2 ○  ●  ◍  ◍  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 2's pieces to place: 1
+Please enter your command (h to see valid command): m2414
+First, you have to place all your pieces on the board!
+
+Player 2's pieces to place: 1
+Please enter your command (h to see valid command): p25
+
+  1  2  3  4  5
+1 ◍  ◍  ●  ○  ●
+
+2 ○  ●  ◍  ◍  ●
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1's turn to move
+Please enter your command (h to see valid command): m2414
+
+  1  2  3  4  5
+1 ◍  ◍  ●  ◍  ●
+
+2 ○  ●  ◍  ○  ●
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 2's turn to move
+Please enter your command (h to see valid command): m1324
+
+  1  2  3  4  5
+1 ◍  ◍  ○  ◍  ●
+
+2 ○  ●  ◍  ●  ●
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1's turn to move
+Please enter your command (h to see valid command): m1413
+
+  1  2  3  4  5
+1 ◍  ◍  ◍  ○  ●
+
+2 ○  ●  ◍  ●  ●
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 2's turn to move
+Please enter your command (h to see valid command): m2233
+
+  1  2  3  4  5
+1 ◍  ◍  ◍  ○  ●
+
+2 ○  ○  ◍  ●  ●
+
+3 ○  ○  ●  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1's turn to move
+Please enter your command (h to see valid command): m2314
+
+  1  2  3  4  5
+1 ◍  ◍  ◍  ◍  ●
+
+2 ○  ○  ○  ●  ●
+
+3 ○  ○  ●  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1 wins!
+Would you like to play again? (y/n): n

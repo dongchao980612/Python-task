@@ -1,0 +1,112 @@
+Welcome to Teeko!
+
+  1  2  3  4  5
+1 ○  ○  ○  ○  ○
+
+2 ○  ○  ○  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1's pieces to place: 4
+Please enter your command (h to see valid command): p11
+
+  1  2  3  4  5
+1 ◍  ○  ○  ○  ○
+
+2 ○  ○  ○  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 2's pieces to place: 4
+Please enter your command (h to see valid command): p12
+
+  1  2  3  4  5
+1 ◍  ●  ○  ○  ○
+
+2 ○  ○  ○  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1's pieces to place: 3
+Please enter your command (h to see valid command): p21
+
+  1  2  3  4  5
+1 ◍  ●  ○  ○  ○
+
+2 ◍  ○  ○  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 2's pieces to place: 3
+Please enter your command (h to see valid command): p22
+
+  1  2  3  4  5
+1 ◍  ●  ○  ○  ○
+
+2 ◍  ●  ○  ○  ○
+
+3 ○  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1's pieces to place: 2
+Please enter your command (h to see valid command): p31
+
+  1  2  3  4  5
+1 ◍  ●  ○  ○  ○
+
+2 ◍  ●  ○  ○  ○
+
+3 ◍  ○  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 2's pieces to place: 2
+Please enter your command (h to see valid command): p32
+
+  1  2  3  4  5
+1 ◍  ●  ○  ○  ○
+
+2 ◍  ●  ○  ○  ○
+
+3 ◍  ●  ○  ○  ○
+
+4 ○  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1's pieces to place: 1
+Please enter your command (h to see valid command): p41
+
+  1  2  3  4  5
+1 ◍  ●  ○  ○  ○
+
+2 ◍  ●  ○  ○  ○
+
+3 ◍  ●  ○  ○  ○
+
+4 ◍  ○  ○  ○  ○
+
+5 ○  ○  ○  ○  ○
+
+Player 1 wins!

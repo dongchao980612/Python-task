@@ -1,6 +1,10 @@
-def main():
-    print("Hello from python-task!")
+from a1back import *
 
 
 if __name__ == "__main__":
-    main()
+    # board = create_empty_board(BOARD_SIZE)
+    # print()
+    # display_board(board)
+    # print()
+
+    get_command()

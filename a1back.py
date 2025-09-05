@@ -1,6 +1,7 @@
 # DO NOT modify or add any import statements
 from support import *
 
+
 # Name:
 # Student Number:
 # Favorite Tree:
@@ -16,6 +17,7 @@ def num_hours() -> float:
         float: Number of hours spent on the assignment
     """
     return 10.0
+
 
 def create_empty_board(board_size: int) -> list[list[str]]:
     """
@@ -35,6 +37,7 @@ def create_empty_board(board_size: int) -> list[list[str]]:
         board.append(row)
     return board
 
+
 def display_board(board: list[list[str]]) -> None:
     """
     Prints the given game state to the screen in a visually appealing format.
@@ -48,17 +51,18 @@ def display_board(board: list[list[str]]) -> None:
     # Print column headers
     print("  ", end="")
     for col in range(len(board[0])):
-        print(f"{col + 1}  ", end="")
+        print("%d  " % (col + 1), end="")
     print()
 
     # Print rows with row numbers
     for row_idx, row in enumerate(board):
-        print(f"{row_idx + 1} ", end="")
+        print("%d " % (row_idx + 1), end="")
         for cell in row:
-            print(f"{cell}  ", end="")
+            print("%s  " % (cell), end="")
         print()
         if row_idx < len(board) - 1:
             print()
+
 
 def add_piece(board: list[list[str]], piece: str, pos: tuple[int, int]) -> bool:
     """
@@ -85,6 +89,7 @@ def add_piece(board: list[list[str]], piece: str, pos: tuple[int, int]) -> bool:
     # Place the piece
     board[row][col] = piece
     return True
+
 
 def move_piece(board: list[list[str]], piece: str, current_pos: tuple[int, int], target_pos: tuple[int, int]) -> bool:
     """
@@ -131,6 +136,7 @@ def move_piece(board: list[list[str]], piece: str, current_pos: tuple[int, int],
     board[target_row][target_col] = piece
     return True
 
+
 def check_input(command: str) -> bool:
     """
     Returns True if the given command is of a valid format.
@@ -170,7 +176,7 @@ def check_input(command: str) -> bool:
             to_row = int(command[3])
             to_col = int(command[4])
             if (1 <= from_row <= 5 and 1 <= from_col <= 5 and
-                1 <= to_row <= 5 and 1 <= to_col <= 5):
+                    1 <= to_row <= 5 and 1 <= to_col <= 5):
                 return True
 
     return False
@@ -189,6 +195,7 @@ def get_command() -> str:
             return command.lower()
         else:
             print(INVALID_FORMAT_MESSAGE)
+
 
 def has_unbroken_line(board: list[list[str]], piece: str) -> bool:
     """
@@ -284,6 +291,7 @@ def has_unbroken_line(board: list[list[str]], piece: str) -> bool:
 
     return False
 
+
 def has_square(board: list[list[str]], piece: str) -> bool:
     """
     Returns True if the board contains a complete 2x2 square of the specified piece.
@@ -302,12 +310,13 @@ def has_square(board: list[list[str]], piece: str) -> bool:
     for row in range(rows - 1):
         for col in range(cols - 1):
             if (board[row][col] == piece and
-                board[row][col + 1] == piece and
-                board[row + 1][col] == piece and
-                board[row + 1][col + 1] == piece):
+                    board[row][col + 1] == piece and
+                    board[row + 1][col] == piece and
+                    board[row + 1][col + 1] == piece):
                 return True
 
     return False
+
 
 def check_win(board: list[list[str]]) -> str:
     """
@@ -329,6 +338,7 @@ def check_win(board: list[list[str]]) -> str:
 
     # No winner
     return EMPTY
+
 
 def play_game() -> None:
     """
@@ -420,6 +430,7 @@ def play_game() -> None:
                 # Switch players
                 current_player = 2 if current_player == 1 else 1
 
+
 def main() -> None:
     """
     Main function that handles the game loop and replay functionality.
@@ -431,6 +442,7 @@ def main() -> None:
         play_again = input(AGAIN_PROMPT)
         if play_again.lower() != "y":
             break
+
 
 if __name__ == "__main__":
     main()

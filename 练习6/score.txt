@@ -1,0 +1,5 @@
+ID	Name	Score_A	Score_B	Score_C	
+12344	Zhang Xiaosan	90	87	79
+12359	Li Xiaosi	59	85	58
+12360	Zhang Xiaosan	78	50	87
+12347	Wang Xiaoming	88	100	60

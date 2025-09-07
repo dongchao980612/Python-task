@@ -1,0 +1,5 @@
+ID	Name	Total_Score
+12344	Zhang Xiaosan	256
+12347	Wang Xiaoming	248
+12360	Zhang Xiaosan	215
+12359	Li Xiaosi	202

@@ -1,0 +1,294 @@
+一、基础选择题（10 道）
+Hello".upper()的结果是？
+A. "hello" B. "HELLO" C. "Hello" D. "HELLO"
+以下哪个方法可以去除字符串左侧的空格？
+A. strip() B. lstrip() C. rstrip() D. trim()
+"123abc".isalnum()的返回值是？
+A. True B. False C. 报错 D. None
+"{name}".format(name="Alice")的结果是？
+A. "{name}" B. "name=Alice" C. "Alice" D. 报错
+执行"python".find("tho")的结果是？
+A. 2 B. 3 C. -1 D. 报错
+"www.google.com".split(".")返回的列表长度是？
+A. 2 B. 3 C. 4 D. 5
+f"a={3+2}"的结果是？
+A. "a=3+2" B. "a=5" C. "a={5}" D. 报错
+" test ".rstrip()的结果是？
+A. "test" B. " test" C. "test " D. " test "
+"HelloWorld".startswith("Hello")的返回值是？
+A. True B. False C. 0 D. -1
+字符串切片"abcdef"[1:4]的结果是？
+A. "abc" B. "bcd" C. "cde" D. "def"
+二、代码输出题（15 道）
+执行以下代码，输出结果是什么？
+
+s = "PyThOn"
+print(s.lower())
+
+执行以下代码，输出结果是什么？
+
+s = "  Hello World  "
+print(s.strip())
+
+执行以下代码，输出结果是什么？
+
+print("12345".isdigit())
+print("12a34".isdigit())
+
+执行以下代码，输出结果是什么？
+
+s = "example.txt"
+print(s.endswith("txt"))
+print(s.startswith("exa"))
+
+执行以下代码，输出结果是什么？
+
+s = "apple,banana,orange"
+print(s.split(","))
+
+执行以下代码，输出结果是什么？
+
+name = "Bob"
+print("Hello, %s!" % name)
+
+执行以下代码，输出结果是什么？
+
+s = "abcdefgh"
+print(s[2:6])
+
+执行以下代码，输出结果是什么？
+
+s = "hello"
+print(s.find("ll"))
+print(s.find("x"))
+
+执行以下代码，输出结果是什么？
+
+a = 10
+b = 20
+print(f"sum: {a + b}")
+
+执行以下代码，输出结果是什么？
+
+s = "  left  right  "
+print(s.lstrip() + "!")
+
+执行以下代码，输出结果是什么？
+
+url = "https://www.python.org"
+print(url.split("/")[2])
+
+执行以下代码，输出结果是什么？
+
+s = "123456789"
+print(s[::2])  # step=2
+
+执行以下代码，输出结果是什么？
+
+log = "Error in file: {file}, line: {line}".format(file="main.py", line=5)
+print(log)
+
+执行以下代码，输出结果是什么？
+
+s = "Hello"
+print(s.title())
+
+执行以下代码，输出结果是什么？
+
+email = "user@163.com"
+print(email.split("@")[-1])
+
+三、填空题（10 道）
+请补充代码，使输出为"HELLO PYTHON"：
+
+s = "hello python"
+print(_______)  # 填入s的方法
+
+请补充代码，使输出为"python"（去除两侧空格）：
+
+s = "  python  "
+print(_______)  # 填入s的方法
+
+请补充代码，判断字符串s是否全为字母：
+
+s = "abcdef"
+print(s._______)  # 填入判断方法
+
+请补充代码，使输出为"Name: Alice, Age: 18"：
+
+name = "Alice"
+age = 18
+print(f"_______")  # 填入f-string内容
+
+请补充代码，获取字符串s中从索引 3 到末尾的子串：
+
+s = "abcdefg"
+print(s[_______])  # 填入切片参数
+
+请补充代码，将字符串s按空格分割为列表：
+
+s = "I love Python"
+print(s._______)  # 填入分割方法
+
+请补充代码，查找字符串s中 "cat" 的索引（若不存在返回 - 1）：
+
+s = "I have a cat"
+print(s._______)  # 填入查找方法
+
+请补充代码，使输出为"File: data.csv, Size: 1024"：
+
+filename = "data.csv"
+size = 1024
+print("File: {0}, Size: {1}".format(_______))  # 填入format参数
+
+请补充代码，判断字符串s是否以 "http" 开头：
+
+s = "https://example.com"
+print(s._______)  # 填入判断方法
+
+请补充代码，获取字符串s的最后 3 个字符：
+
+s = "programming"
+print(s[_______])  # 填入切片参数
+
+四、编程题（15 道）
+编写代码：让用户输入一个字符串，输出该字符串的大写形式。
+编写代码：让用户输入一个带空格的字符串，去除两侧空格后输出。
+编写代码：判断用户输入的字符串是否全为数字，输出 "是数字" 或 "不是数字"。
+编写代码：用户输入姓名和年龄，用%s格式化输出 "姓名：XXX，年龄：XX"。
+编写代码：将字符串 "apple,banana,grape" 按逗号分割，输出分割后的列表。
+编写代码：用户输入一个邮箱（如 "user@qq.com"），提取并输出邮箱的域名（如 "qq.com"）。
+编写代码：输出字符串 "abcdefgh" 中索引 2 到 5 的子串（包含索引 2，不包含 5）。
+编写代码：用户输入一个字符串，查找其中是否包含 "python"，若存在输出索引，否则输出 "未找到"。
+编写代码：用 f-string 格式化输出 "今天是 2023 年 10 月 1 日，温度 25 度"（变量为 year=2023, month=10, day=1, temp=25）。
+编写代码：将字符串 "hello world" 去除左侧空格后，再转换为标题格式（每个单词首字母大写）输出。
+编写代码：用户输入一个句子（如 "I like Python programming"），按空格分割后，输出分割后的第 2 个单词。
+编写代码：判断用户输入的字符串是否以 "www." 开头且以 ".com" 结尾，输出 "符合网址格式" 或 "不符合"。
+编写代码：输出字符串 "123456789" 中每隔一个字符取一个的结果（如 "13579"）。
+编写代码：用户输入姓名（如 "zhangsan"），用 format 方法输出 "Hello, Zhangsan!"（首字母大写）。
+编写代码：提取字符串 "2023-10-01" 中的年份、月份、日期，用 f-string 输出 "年：2023，月：10，日：01"
+
+
+
+一、基础选择题
+B 2. B 3. A 4. C 5. C 6. B 7. B 8. B 9. A 10. B
+二、代码输出题
+python
+Hello World
+True；False
+True；True
+['apple', 'banana', 'orange']
+Hello, Bob!
+cdef
+2；-1
+sum: 30
+left right !
+www.python.org
+13579
+Error in file: main.py, line: 5
+Hello
+163.com
+三、填空题
+s.upper()
+s.strip()
+isalpha()
+Name: {name}, Age: {age}
+3:
+split(" ")
+find("cat")
+filename, size
+startswith("http")
+-3:
+四、编程题（参考代码）
+
+
+s = input("请输入字符串：")
+print(s.upper())
+
+
+
+s = input("请输入带空格的字符串：")
+print(s.strip())
+
+
+
+s = input("请输入字符串：")
+if s.isdigit():
+    print("是数字")
+else:
+    print("不是数字")
+
+
+
+name = input("请输入姓名：")
+age = input("请输入年龄：")
+print("姓名：%s，年龄：%s" % (name, age))
+
+
+
+s = "apple,banana,grape"
+print(s.split(","))
+
+
+
+email = input("请输入邮箱：")
+domain = email.split("@")[-1]
+print(domain)
+
+
+
+s = "abcdefgh"
+print(s[2:5])  # 输出"cde"
+
+
+
+s = input("请输入字符串：")
+index = s.find("python")
+if index != -1:
+    print(index)
+else:
+    print("未找到")
+
+
+
+year, month, day, temp = 2023, 10, 1, 25
+print(f"今天是{year}年{month}月{day}日，温度{temp}度")
+
+
+
+s = "  hello world  "
+print(s.lstrip().title())  # 输出"Hello World"
+
+
+
+sentence = input("请输入一个句子：")
+words = sentence.split(" ")
+print(words[1])
+
+
+
+s = input("请输入字符串：")
+if s.startswith("www.") and s.endswith(".com"):
+    print("符合网址格式")
+else:
+    print("不符合")
+
+
+
+s = "123456789"
+print(s[::2])  # 输出"13579"
+
+
+
+name = input("请输入姓名：")
+formatted_name = name.title()
+print("Hello, {0}!".format(formatted_name))
+
+
+
+
+date = "2023-10-01"
+parts = date.split("-")
+year, month, day = parts
+print(f"年：{year}，月：{month}，日：{day}")
+

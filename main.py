@@ -1,10 +1,9 @@
-from a1back import *
+from day02 import fun1
+
 
 
 if __name__ == "__main__":
-    # board = create_empty_board(BOARD_SIZE)
-    # print()
-    # display_board(board)
-    # print()
+    yuanzu = [("zhangsan",18),("lisi",19),("wangwu",22)]
 
-    get_command()
+    for i in yuanzu:
+        print("name = ",i[0],"\tage = ",i[1])

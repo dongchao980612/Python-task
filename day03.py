@@ -83,5 +83,8 @@ if __name__ == "__main__":
     # 10 02 03 1987 03 20 2948
     print(name,ty)
 
+    s = "hello"
+    print(s[-1:-4:1])# 字符串反转
+
     # 字符串 列表 [data1,data2,data3] 字典 [key键:value值]{name:zs,age:12} 
     # 循环 判断
